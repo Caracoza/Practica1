@@ -16,3 +16,65 @@ h5{
 h6{
     color: rgb(90, 207, 22);
 }
+button{
+    color: rgb(39, 9, 172);
+    background-color: rgb(107, 207, 14);
+}
+.header>*{
+    display: inline-block;
+    height: 100%;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.header>{
+display: inline-block;
+font-size: medium;
+height: 100%;
+vertical-align: 25px;
+font-family: 'Times New Roman', Times, serif;
+}
+button{
+    margin-bottom: 25%;
+    right: 250px;
+    }
+
+li{
+display:inline;
+}
+h2{
+    display:inline;
+    }
+li{
+    color: crimson;
+}
+.logo{
+    height: 60%;
+     
+}
+.barnav{
+text-align: left;
+color: aquamarine;
+font-weight: 20px;
+    
+}
+.actions>{
+    text-align: right;
+    font-size:12%
+   
+}
+.actions>*{
+    margin-left: 35px;
+    margin-right: 45px;
+}
+
+
+
+
+
+
+
+
+
