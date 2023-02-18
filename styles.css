@@ -23,10 +23,10 @@ button{
 .header>*{
     display: inline-block;
     height: 100%;
-    margin-top: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 .header>{
@@ -34,11 +34,12 @@ display: inline-block;
 font-size: medium;
 height: 100%;
 vertical-align: 25px;
-font-family: 'Times New Roman', Times, serif;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 button{
-    margin-bottom: 25%;
-    right: 250px;
+    margin-bottom: 5%;
+    right: 50px;
+    left: 50%;
     }
 
 li{
@@ -69,12 +70,4 @@ font-weight: 20px;
     margin-left: 35px;
     margin-right: 45px;
 }
-
-
-
-
-
-
-
-
 
