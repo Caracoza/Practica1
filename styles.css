@@ -160,7 +160,45 @@ main{
    body{
     background-color: rgba(14, 230, 129, 0.692);
 }
+
 }
+h3{
+    color: rgb(190, 32, 4);
+    }
 
+    button{
+        color: rgb(210, 224, 8);
+        background-color: rgb(156, 14, 9);
+    }
 
+    article{
+        background-color: rgb(211, 223, 49);
+        height: 70%;
+        
+    }
+   
+    div.contenido{
+        padding: 1px;
+        
+    }
+    p.letra{
+       color: blueviolet;
+       padding: 1px;
+       font-size: medium;
+    }
 
+    div.tarjeta{
+        width: 150px;
+        margin: 20%;
+        text-align:center;    
+        
+    }
+
+    div.album{
+       width: 240px;
+       box-shadow: 0 4 px 8px crimson ;
+       text-align: center;
+        
+    }
+
+   
