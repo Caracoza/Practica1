@@ -23,7 +23,7 @@ button{
 
 .header>{
     margin-top: 1px;
-    margin-left: 100px;
+    margin-left: 10px;
     margin-right: 20px;
 font-size: 20px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -32,7 +32,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 .header>*{
     display: inline-block;
     font-size: 16px;
-    height: 100px;
+    height: 1px;
     vertical-align: middle;
     line-height: 45px;
     
@@ -48,9 +48,9 @@ display:inline;
      
 }
 .navbar{
-text-align: left;
+text-align:right;
 color: aquamarine;
-font-weight: 20px;
+font-weight: 140px;
     
 }
 
@@ -192,6 +192,54 @@ h3{
        box-shadow: 0 4 px 8px crimson ;
        
     }
+
+    @media (max-width:575px){
+
+        .navbar, .actions{
+            display: none;
+        }
+        h1{
+            font-size: 30px;
+        }
+        .publish > form{
+            flex-direction: column;
+            display: flex;
+            
+        }
+        .publish > form > div {
+            height: 50px;
+            margin-top: 10px;
+        }
+        main{
+            margin-top: 130px;
+        }
+    
+       .features{
+        grid-template: repeat(4, 1fr)/1fr;
+    }
+    
+    /** dispositivos pequeños en vista landscape (horizontal) */
+    @media (min-width: 576px) and (max-width: 767px) {
+      
+    }
+    
+    /** dispositivos medianos (tablets) */
+    @media (min-width: 768px) and (max-width: 991px) {
+      
+    }
+    
+    /** dispositivos grandes (desktops) */
+    @media (min-width: 992px) and (max-width: 1199px) {
+      
+    }
+    
+    /** dispositivos extra grandes (monitores grandes, tvs) */
+    @media (min-width: 1200px) {
+      
+    }
+
+
+
 
 
     .examen1 .examen-features h1{
