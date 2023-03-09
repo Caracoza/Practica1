@@ -19,6 +19,8 @@ h6{
 button{
     color: rgb(39, 9, 172);
     background-color: rgb(107, 207, 14);
+    margin-left: 10px;
+    margin-right: 20px;
 }
 
 .header>{
@@ -44,7 +46,8 @@ display:inline;
 }
 
 .logo{
-    height: 40%;
+    height: 30%;
+    left: 10px;
      
 }
 .navbar{
@@ -234,8 +237,7 @@ h3{
     }
     
     /** dispositivos extra grandes (monitores grandes, tvs) */
-    @media (min-width: 1200px) {
-      
+    @media (min-width: 1200px){
     }
 
 
@@ -273,8 +275,7 @@ h3{
         align-items: center;
         overflow: hidden;
     
-    }
-    
+    }    
     .feature .feature-cards .feature-figure img{
             padding: 50px 30px 30px 30px;
             flex: 2;
@@ -292,5 +293,4 @@ h3{
             text-align: center;
         }
     
-
-   
+    }
