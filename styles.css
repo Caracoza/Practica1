@@ -244,23 +244,21 @@ h3{
 
 
 
-    .examen1 .examen-features h1{
-        box-shadow: 200px 4px 8px crimson ;
-        font-size: 130px;
-        font-family: 'Times New Roman', Times, serif;
+    .tarjeta{
+        
         color: #0c0c0c;
         
         
     }
-    .examen1 .examen-features p{
+    .album{
         font-size: 15px;
         font-family: 'Times New Roman', Times, serif;
-        color: #fdfdfd;
+        color:aquamarine;
         
         
     }
     
-    .examen1  >*{
+    .album >*{
         box-shadow: 0 4 px 8px crimson ;
         background-color: #b65050;
        text-align: center; 
@@ -275,7 +273,19 @@ h3{
         align-items: center;
         overflow: hidden;
     
-    }    
+    }
+    
+     .feature .feature-cards .album {
+        margin-bottom: 60px;
+        margin-left: 30px;
+        margin-right: 15px;
+        background-color: #fd9a9afd;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+    
+       }
+        
     .feature .feature-cards .feature-figure img{
             padding: 50px 30px 30px 30px;
             flex: 2;
