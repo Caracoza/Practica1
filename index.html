@@ -1,0 +1,499 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.min"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+      
+      <script type="text/javascript">
+        function sendEmail() {
+            Email.send({
+                    Host: "smtp.elasticemail.com",
+                    Username: "chelycaracoza5478@gmail.com",
+                    Password: "5B0B88440AF726192AC0335411FEC0D220F1",
+                    To: 'chelycaracoza5478@gmail.com',
+                    From: "chelycaracoza5478@gmail.com",
+                    Subject: "TE AMO",
+                    Body: "Well that was easy!!",
+                })
+                .then(function (message) {
+                    alert("mail sent successfully")
+                });
+       }
+</script>
+    
+
+        
+</head>
+<body>
+    
+    <nav class="container-fluid p-5 bg-primary text-white text-end navbar navbar-expand-sm bg-danger navbar-dark fixed-top" class="nav justify-content-center" class="text-justify-content-center" class="navbar navbar-expand-sm bg-dark navbar-dark">
+                 <header class="header">
+                    
+                    
+  
+                
+        <!--logo con link a la pagina principal-->
+        <a class="navbar-brand">
+        <img src="img/OIP.jfif"  style="width:70px;" class="rounded-pill">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         
+              
+        <!-- Menu de navegacion--> 
+        <div class="collapse navbar-collapse" id="collapsibleNavbar"> <!-- contenedor de acciones de usuario-->
+            <ul class="navbar-nav">
+                
+               
+                <li class="nav-item">
+                   <a class="nav-item" href="">Mapas</a>
+                   </li>
+                  
+                <li class="nav-item">
+                    <a href="Armas.html">Armas</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-item" href="">Personajes</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-item" href="">Vehiculos</a>
+                </li>
+               <li class="nav-item">
+                 <a class="nav-item" href="">Armamento</a>
+               </li>
+               
+ </ul>
+ </div>
+           <div class="actions">
+            <a> Sing In</a>
+            <button>Start free trial</button> 
+            </div>
+            
+         </header>
+         
+            
+</nav>
+
+
+<br><br><br><br><br><br><br>
+    <h1> Mi Primer Pagina web </h1> <!-- Este es un comentario-->
+    <h2> Siendo una nueva experiencia para mi</h2>
+    <h3> En donde podre aprender como realizar una pagina WEB</h3>
+    <h4> Para que en algun futuro realize paginas por mi misma</h4>
+    <h5> Y poder llegar a ser una diseñadora de paginas WEB</h5>
+    <h6> Para poder venderlas a un excelente precio</h6>
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+  
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/dvorah.jpg" alt="Los Angeles" class="d-block w-30">
+      </div>
+      <div class="carousel-item">
+        <img src="img/cod1.jpg" alt="Chicago" class="d-block w-30">
+      </div>
+      <div class="carousel-item">
+        <img src="img/frozono.jfif" alt="New York" class="d-block w-30">
+      </div>
+    </div>
+  
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+<div>
+    <div class="container pt-5">
+    <h3>REGISTRATE AHORA</h3>
+    <p>ENTRA AL MUNDO DE CALL OF DUTY Y DATE CUENTA DE LO QUE ERES CAPAZ DE HACER Y TE SORPRENDERAS</p>
+<form>
+   
+    <div class="text-center" class="mb-1 mt-1" method="post"></div>
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+      <button type="button" class="btn btn-primary" values="sendEmail"
+        onclick="sendEmail()">Enviar</button>
+      <div class="text-center" class= "mb-1 mt-1"></div>
+      <p>Entra y vive una experiancia digna de un soldado solo 10 dias</p>
+    </div>
+</form></div>
+  </div>
+  </div>
+
+<br><br><br>
+    <article class="Publish">
+    <form action=""> <!--este es un formulario-->
+    
+    <input type="text" placeholder ="Nombre">
+    <br>
+    <input type="text" placeholder ="Apellido">
+    <br>
+    <input type="text" placeholder ="Edad">
+    <br>
+    <input type="text" placeholder ="Password">
+    <br>
+    <button type=" submit "> Enviar</button>
+
+    </form>
+</article>
+<br>
+
+ <img src="img/maxresdefault.jpg"  height="270px" whith="490px" >
+
+
+       <section class="video">
+     <figure>
+        <iframe width="380" height="345" src="Tráiler cinemático _ Call of Duty - Warzone Mobile.mp4"></iframe>
+     </figure>
+           
+       <article class="Publish">
+         </article>
+ 
+        <h3>
+            CALL OF DUTY:MOBILE
+        </h3>
+        <p>
+            Call Of Duty Mobile, el mejor juego de guerra en el cual te podras <br>
+            sorprender con sus armas, Personajes mapas, armamentos, etc. de los cuales <br>
+            son increiblemente geniales, nuevos estilos, nuevos lugares que descubrir.<br>
+        </p>
+        <form action="">
+            <p>Unete a Call of Duty Mobile</p>
+            <div>
+                <input type="text" placeholder="Enter email"><br>
+                <button>Start</button>
+            </div>
+        </form>
+    </article>
+      
+    </section>
+    <br>
+
+    <div class="container-fluid p-5 bg-primary text-white text-center">
+        <h1>CALL OF DUTY</h1>
+       
+      </div>
+    
+   
+    <br>
+
+
+    <section class="features">
+       <article class="feature-card">
+        <div class="feature-content">
+             <figure>
+                <img src="img/R (1).jfif" alt="160px" height="150px" width="150">
+            </figure>
+
+                <h3>Call of Duty Mobile</h3>
+        <p>
+            Este es un parrafo en donde te convences en descargar Call of Duty Mobile....wow
+        </p>
+        <a href="">Publica instantaneamente</a>
+        </div>
+        <div class="feature-image">
+            <figure>
+                <img src="img/OpoP (2).jfif" alt="250" height="280px" width="275">
+            </figure>
+        </div>
+       </article>
+       
+
+       <section class="features">
+        <article class="feature-card">
+         <div class="feature-content">
+              <figure>
+                 <img src="img/R (1).jfif" alt="160px" height="150px" width="150">
+             </figure>
+ 
+                 <h3>Call of Duty Mobile</h3>
+         <p>
+             Este es un parrafo en donde te convences en descargar Call of Duty Mobile....wow
+         </p>
+         <a href="">Publica instantaneamente</a>
+         </div>
+         <div class="feature-image">
+             <figure>
+                 <img src="img/OpoP (2).jfif" alt="250" height="280px" width="275">
+             </figure>
+         </div>
+        </article>
+       
+
+           <section class="features">
+               <article class="feature-card">
+                   <div class="feature-content">
+                       <figure>
+                           <img src="img/R (1).jfif" alt="160px" height="150px" width="150">
+                       </figure>
+
+                       <h3>Call of Duty Mobile</h3>
+                       <p>
+                           Este es un parrafo en donde te convences en descargar Call of Duty Mobile....wow
+                       </p>
+                       <a href="">Publica instantaneamente</a>
+                   </div>
+                   <div class="feature-image">
+                       <figure>
+                           <img src="img/OpoP (2).jfif" alt="250" height="280px" width="275">
+                       </figure>
+                   </div>
+               </article>
+
+
+               <section class="features">
+                   <article class="feature-card">
+                       <div class="feature-content">
+                           <figure>
+                               <img src="img/R (1).jfif" alt="160px" height="150px" width="150">
+                           </figure>
+
+                           <h3>Call of Duty Mobile</h3>
+                           <p>
+                               Este es un parrafo en donde te convences en descargar Call of Duty Mobile....wow
+                           </p>
+                           <a href="">Publica instantaneamente</a>
+                       </div>
+                       <div class="feature-image">
+                           <figure>
+                               <img src="img/OpoP (2).jfif" alt="250" height="280px" width="275">
+                           </figure>
+                       </div>
+                   </article>
+
+
+
+
+
+               </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               <section>
+                   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>  <br>
+                   <div class="container-fluid p-15 bg-primary text-white ">
+                       <h1>Examen Unidad 1</h1><br>
+
+
+                   </div>
+                   <article>
+
+
+                       <br> <h1>MORTAL KOMBAT</h1>
+                       <h3>¿TE ATREVES A JUGARLO?</h3>
+                       <button>TE RETO</button>
+               </section>
+               <br><br><br><br><br><br><br>  <br>
+
+               <body>
+                   <section class="features">
+                   <article class="feature-card">
+                   <div class="feature-content">
+                               <h2>MORTAL KOMBAT</h2>
+                               <img src="img/frozono.jfif" alt="56px" width="250">
+                               <div class="contenido">
+                                   <h2>Frozono</h2>
+                                   <p>
+                                       Este personaje tiene la fuerza y el potencial de elimimar a tu enemigo, este personaje brinda el poder del hielo
+                                   </p>
+                                   <a href="">Demuestrame lo que tienes, si es que puedes</a>
+                                   <p class="letra"></p>
+                               </div>
+                           </div>
+                           
+               </body>
+
+
+
+               <body>
+                   <section class="features">
+                   <article class="feature-card">
+                   <div class="feature-content">
+                               <h2>MORTAL KOMBAT</h2>
+                               <img src="img/barakaaa.jpg" alt="56px" width="250">
+                               <div class="contenido">
+                                   <h2>Baraka</h2>
+                                   <p>
+                                       Este personaje tiene la fuerza y el potencial de elimimar a tu enemigo, este personaje brinda el poder de los cuhillos
+                                   </p>
+                                   <a href="">Demuestrame lo que tienes, si es que puedes</a>
+                                   <p class="letra"></p>
+                               </div>
+                           </div>
+                           </div>
+               </body>
+
+
+               <body>
+                   <section class="features">
+                   <article class="feature-card">
+                   <div class="feature-content">
+                               <h2>MORTAL KOMBAT</h2>
+                               <img src="img/dvorah.jpg" alt="56px" height="250" width="250">
+                               <div class="contenido">
+                                   <h2>Dvorah</h2>
+                                   <p>
+                                       Este personaje tiene la fuerza y el potencial de elimimar a tu enemigo, este personaje brinda el poder del veneno
+                                   </p>
+                                   <a href="">Demuestrame lo que tienes, si es que puedes</a>
+                                   <p class="letra"></p>
+                               </div>
+                           </div>
+                           </div>
+               </body>
+
+
+
+               <section class="features">
+               <article class="feature-card">
+               <div class="feature-content">
+
+                           <h3>MORTAL KOMBAT</h3>
+                           <figure>
+                               <img src="img/scorpion.jpg" alt="56px" width="250">
+                           </figure>
+                           <h3>Scorpion</h3>
+                           <p>
+                               Este personaje tiene la fuerza y el potencial de elimimar a tu enemigo, este personaje brinda el poder del fuego
+                           </p>
+                           <a href="">Demuestrame lo que tienes, si es que puedes</a>
+                       </div>
+
+               </section>
+
+               <br>    <br>    <br>
+
+               <hr class="border border-danger border-2 opacity-40">
+               <div class="container-fluid p-5 bg-primary text-white text-center">
+                   <h1>Examen Unidad 2</h1>
+                  
+               </div>
+               <br>    <br>    
+               <div class="container pt-5">
+                   <h3>REGISTRATE AHORA</h3>
+                   <figure>
+                       <img src="img/scorpion.jpg" alt="56px" width="50" class="rounded-5 rounded-top-0">
+                   </figure>
+                   <p>ENTRA AL MUNDO DE CALL OF DUTY Y Y DISFRUTA DE UNA NUEVA EXPERIENCIA</p>
+                   <form>
+
+                       <div class="text-center" class="mb-1 mt-1" method="post"></div>
+                       <input type="text" placeholder="Nombre">
+                       <br>
+                       <input type="text" placeholder="Password"><br>
+                       <label for="email" class="form-label">Email:</label>
+                       <br><input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+
+                      
+                       
+               </div><br>
+               <button type="button" class="btn btn-primary"
+                       onclick="sendEmail()">
+                   Enviar
+               </button>
+               <div class="text-center" class="mb-1 mt-1"></div><br>
+               <p>SE UN SOLDADO DIGNO DE UNA VICTORIA</p>
+               </div><br>    <br>    <br>
+
+              
+               <body>
+                   
+                         <section class="features ">
+                       <article class="feature-card">
+                           <div class="feature-content">
+                               
+                               <h2>MORTAL KOMBAT</h2>
+                               <img src="img/frozono.jfif" alt="56px" class="rounded-start-2" width="50" >
+                               <div class="contenido">
+                                   <h2>Frozono</h2>
+                                   <p>Personaje chido
+                                       
+                                       <button>Sing in</button>
+                               </div>
+                           </div>
+</section>
+               </body>
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
+
+
+
+
+
+
